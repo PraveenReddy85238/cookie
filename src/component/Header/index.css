@@ -1,0 +1,81 @@
+.header-bg-container {
+  background-color: #272727;
+  padding: 10px;
+}
+.mobile-view-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home-logo {
+  color: #ffffff;
+  font-size: 38px;
+  padding-left: 10px;
+}
+
+.briefcaseFill-logo {
+  color: #ffffff;
+  font-size: 38px;
+  padding-left: 10px;
+}
+
+.logout-logo {
+  color: #ffffff;
+  font-size: 38px;
+  padding-left: 10px;
+}
+.mobile-view-logout-btn {
+  border-width: 0px;
+  background-color: transparent;
+}
+
+.large-screens-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+.home {
+  color: #f8fafc;
+  font-size: 14px;
+  font-family: 'Roboto';
+  padding-right: 10px;
+  font-weight: bold;
+}
+.job {
+  color: #f8fafc;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.home-job-container {
+  display: flex;
+}
+.large-screen-logout-btn {
+  background-color: #6366f1;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Roboto';
+  border-width: 0px;
+  padding: 7px 20px;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .large-screens-container {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-view-container {
+    display: none;
+  }
+  .home {
+    font-size: 18px;
+  }
+  .job {
+    font-size: 18px;
+  }
+}
